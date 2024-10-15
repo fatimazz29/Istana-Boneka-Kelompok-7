@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Istana Boneka | Fox Plush</title>
+    <link rel="stylesheet" href="bootstrap.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar fixed-top navbar navbar-expand-md navbar-dark bg-dark main-color">
+        <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <a class="navbar-brand me-auto" href="index.html">Istana Boneka</a>
+                <ul class="navbar-nav">
+                    <li class="nav-item me-3">
+                        <a class="nav-link" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item me-3">
+                        <a class="nav-link active" href="produk.html">Produk</a>
+                    </li>
+                    <li class="nav-item me-3">
+                        <a class="nav-link" href="promo.html">Promo</a>
+                    </li>
+                    <li class="nav-item me-3">
+                        <a class="nav-link" href="aboutus.html">About Us</a>
+                    </li>
+                    <li class="nav-item me-3">
+                        <a class="nav-link" href="cart.html" tabindex="-1" aria-disabled="true"><i
+                                class="bi bi-cart"></i>Keranjang</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- breadcrumb -->
+    <div class="container-fluid pt-5">
+        <div class="container pt-5">
+            <nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item"><a href="produk.html" style="text-decoration: none;">Produk</a></li>
+                    <li class="breadcrumb-item">Sedang</li>
+                    <li class="breadcrumb-item active">Fox Plush</li>
+                </ol>
+            </nav>
+        </div>
+    </div>
+
+    <!-- main -->
+    <div class="container-fluid">
+        <div class="container">
+            <div class="row">
+                <!-- product image -->
+                <div class="col-md-4 mb-3">
+                    <img src="asset/produk1.jpeg" alt="" class="img-fluid">
+                </div>
+                <!-- product detail -->
+                <div class="col-md-7 offset-md-1">
+                    <h2>Fox Plush</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora molestias eaque mollitia alias
+                        repudiandae, pariatur doloremque similique sapiente amet dolorum.</p>
+                    <h3 class="text-warning">Rp95.000</h3>
+                    <button class="btn btn-outline-warning mt-3">Beli Sekarang</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- rekomendasi produk -->
+    <div class="container-fluid py-5 mt-5" style="background-color: beige;">
+        <div class="container">
+            <h3 class="text-center mb-5">Rekomendasi Untuk Anda</h3>
+
+            <div class="row justify-content-center">
+                <div class="col-6 col-md-2 mb-3">
+                    <a href="detail.html">
+                        <img src="asset/terlaris3.jpeg" alt="" class="img-fluid">
+                    </a>
+                </div>
+                <div class="col-6 col-md-2 mb-3">
+                    <a href="detail.html">
+                        <img src="asset/produk5.jpeg" alt="" class="img-fluid">
+                    </a>
+                </div>
+                <div class="col-6 col-md-2 mb-3">
+                    <a href="detail.html">
+                        <img src="asset/produk8.jpeg" alt="" class="img-fluid">
+                    </a>
+                </div>
+                <div class="col-6 col-md-2  mb-3">
+                    <a href="detail.html">
+                        <img src="asset/terlaris4.jpeg" alt="" class="img-fluid">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Alamat -->
+    <div class="container-fluid py-5 text-light alamat">
+        <div class="container">
+            <h5 class="text-center mb-4">Temui Kami</h5>
+            <div class="row justify-content-center">
+                <div class="col-md-1 col-sm-1 d-flex justify-content-center mb-2">
+                    <i class="bi bi-instagram fs-5" id="instagram"></i>
+                </div>
+                <div class="col-md-1 col-sm-1 d-flex justify-content-center mb-2">
+                    <i class="bi bi-facebook" id="facebook"></i>
+                </div>
+                <div class="col-md-1 col-sm-1 d-flex justify-content-center mb-2">
+                    <i class="bi bi-tiktok" id="tiktok"></i>
+                </div>
+                <div class="col-md-1 col-sm-1 d-flex justify-content-center mb-2">
+                    <i class="bi bi-twitter" id="twitter"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <div class="container-fluid py-3 bg-dark text-light">
+        <div class="container">
+            <label class="text-center d-flex justify-content-center">&copy;2024 Istana Boneka | Kelompok 7</label>
+        </div>
+    </div>
+
+
+    <script src="bootstrap.js"></script>
+
+    <script>
+        document.getElementById('instagram').addEventListener('click', function () {
+            window.open('https://www.instagram.com/', '_blank');
+        });
+
+        document.getElementById('facebook').addEventListener('click', function () {
+            window.open('https://www.facebook.com/', '_blank');
+        });
+
+        document.getElementById('tiktok').addEventListener('click', function () {
+            window.open('https://www.tiktok.com/', '_blank');
+        });
+
+        document.getElementById('twitter').addEventListener('click', function () {
+            window.open('https://www.twitter.com/', '_blank');
+        });
+    </script>
+</body>
+
+</html>

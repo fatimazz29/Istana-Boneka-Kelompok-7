@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Istana Boneka</title>
+  <link rel="stylesheet" href="bootstrap.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <!-- Navbar -->
+  <nav class="navbar fixed-top navbar navbar-expand-md navbar-dark bg-dark main-color">
+    <div class="container-fluid">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <a class="navbar-brand me-auto" href="index.html">Istana Boneka</a>
+        <ul class="navbar-nav">
+          <li class="nav-item me-3">
+            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+          </li>
+          <li class="nav-item me-3">
+            <a class="nav-link" href="produk.html">Produk</a>
+          </li>
+          <li class="nav-item me-3">
+            <a class="nav-link" href="promo.html">Promo</a>
+          </li>
+          <li class="nav-item me-3">
+            <a class="nav-link" href="aboutus.html">About Us</a>
+          </li>
+          <li class="nav-item me-3">
+            <a class="nav-link" href="cart.html" tabindex="-1" aria-disabled="true"><i
+                class="bi bi-cart"></i>Keranjang</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Banner -->
+  <div class="container-fluid banner d-flex align-items-center">
+    <div class="container">
+      <h1 class="text-light text-center mb-3">Selamat Datang Di Istana Boneka</h1>
+      <h3 class="text-light text-center mb-3">Cari Boneka Apa?</h3>
+      <div class="col-md-8 offset-md-2">
+        <div class="input-group">
+          <select class="form-control" id="inputGroupSelect04" aria-label="Example select with button addon">
+            <option selected>Pilih Kategori Boneka</option>
+            <option value="1">Kecil</option>
+            <option value="2">Sedang</option>
+            <option value="3">Besar</option>
+          </select>
+          <button class="btn btn-warning text-dark" type="button">Telusuri</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Promo -->
+  <div class="container-fluid py-5">
+    <div class="container">
+      <h2 class="text-center">Promo Minggu Ini</h2>
+      <div class="row mt-5 justify-content-center">
+        <div class="col-sm-6 col-md-3 hovered-card mb-3">
+          <div class="card">
+            <img src="asset/produk2.jpeg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Beli 1 Gratis 1</h5>
+              <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias, corporis?</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-6 col-md-3 hovered-card mb-3">
+          <div class="card">
+            <img src="asset/produk1.jpeg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Beli 1 Gratis 1</h5>
+              <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias, corporis?</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-6 col-md-3 hovered-card mb-3">
+          <div class="card">
+            <img src="asset/produk5.jpeg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Beli 1 Gratis 1</h5>
+              <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias, corporis?</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="mt-5 d-flex justify-content-center">
+          <a href="promo.html" class="btn btn-warning text-dark"
+            onclick="alert('Anda akan diarahkan ke halaman promo!')">Lihat Semua Promo</a>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <!-- Service -->
+  <div class="container-fluid py-5 main-color">
+    <div class="container">
+      <h3 class="text-light text-center mb-5">Kami Melayani</h3>
+
+      <div class="row justify-content-center">
+        <div class="col-sm-6 col-md-3 hovered-card mb-3">
+          <div class="d-flex justify-content-center">
+            <div class="icon-service d-flex align-items-center justify-content-center">
+              <i class="bi bi-truck display-6"></i>
+            </div>
+          </div>
+          <div class="mt-3 text-white text-center">
+            <h5>Delivery</h5>
+            <p>Pesan boneka favorit Anda dari mana saja, dan kami akan mengirimkannya dengan aman dan cepat.</p>
+          </div>
+        </div>
+
+        <div class="col-sm-6 col-md-3 hovered-card mb-3">
+          <div class="d-flex justify-content-center">
+            <div class="icon-service d-flex align-items-center justify-content-center">
+              <i class="bi bi-pencil display-6"></i>
+            </div>
+          </div>
+          <div class="mt-3 text-white text-center">
+            <h5>Custom Order</h5>
+            <p>Buat boneka impian Anda! Kami menyediakan layanan pembuatan boneka sesuai keinginan, mulai dari desain
+              hingga ukuran.</p>
+          </div>
+        </div>
+
+        <div class="col-sm-6 col-md-3 hovered-card mb-3">
+          <div class="d-flex justify-content-center">
+            <div class="icon-service d-flex align-items-center justify-content-center">
+              <i class="bi bi-box2-heart display-6"></i>
+            </div>
+          </div>
+          <div class="mt-3 text-white text-center">
+            <h5>Gift Wrapping</h5>
+            <p>Kirim boneka sebagai hadiah? Kami menyediakan layanan bungkus kado yang cantik agar hadiah Anda terlihat
+              spesial.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Produk -->
+  <div class="container-fluid py-5">
+    <div class="container">
+      <h2 class="text-center mb-5">Paling Banyak Dibeli</h2>
+      <div class="row">
+        <div class="col-sm-6 col-md-3 hovered-card mb-3">
+          <div class="card">
+            <img src="asset/terlaris1.jpeg" class="card-img-top" alt="...">
+            <div class="card-body text-center">
+              <h5 class="card-title text-warning">Teddy Bear</h5>
+              <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+              <h4 class="text text-warning">Rp145.000</h4>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-6 col-md-3 hovered-card mb-3">
+          <div class="card">
+            <img src="asset/terlaris4.jpeg" class="card-img-top" alt="...">
+            <div class="card-body text-center">
+              <h5 class="card-title text-warning">Elephant Plush</h5>
+              <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+              <h4 class="text text-warning">Rp135.000</h4>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-6 col-md-3 hovered-card mb-3">
+          <div class="card">
+            <img src="asset/terlaris3.jpeg" class="card-img-top" alt="...">
+            <div class="card-body text-center">
+              <h5 class="card-title text-warning">Lion Plush</h5>
+              <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+              <h4 class="text text-warning">Rp156.500</h4>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-6 col-md-3 hovered-card mb-3">
+          <div class="card">
+            <img src="asset/terlaris2.jpeg" class="card-img-top" alt="...">
+            <div class="card-body text-center">
+              <h5 class="card-title text-warning">Bunny Plush</h5>
+              <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+              <h4 class="text text-warning">Rp118.900</h4>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="mt-5 d-flex justify-content-center">
+        <a href="produk.html" class="btn btn-warning text-dark"
+          onclick="alert('Anda akan diarahkan ke halaman produk!')">Lihat Lainnya</a>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- Hubungi Kami -->
+  <div class="container-fluid py-5 main-color">
+    <div class="container">
+      <h4 class="text-center">Kotak Saran & Hubungi Kami</h4>
+      <p class="text-center">Bagikan ide dan masukan Anda, atau hubungi kami langsung untuk bantuan.</p>
+
+      <form class="col-md-6 offset-md-3 mt-5">
+        <div class="mb-3">
+          <label for="email" class="form-label">Alamat Email</label>
+          <input type="text" class="form-control" id="email">
+        </div>
+        <div class="mb-3">
+          <label for="Pesan" class="form-label">Pesan</label>
+          <input type="text" class="form-control" id="pesan">
+        </div>
+        <div class="d-flex gap-2">
+          <button type="submit" class="btn btn-warning text-dark w-100">Kirim</button>
+          <button type="button" class="btn btn-warning text-dark w-100" onclick="clearForm()">Hapus</button>
+      </div>
+      </form>
+    </div>
+  </div>
+
+  <!-- Alamat -->
+  <div class="container-fluid py-5 text-light alamat">
+    <div class="container">
+      <h5 class="text-center mb-4">Temui Kami</h5>
+      <div class="row justify-content-center">
+        <div class="col-md-1 col-sm-1 d-flex justify-content-center mb-2">
+          <i class="bi bi-instagram fs-5" id="instagram"></i>
+        </div>
+        <div class="col-md-1 col-sm-1 d-flex justify-content-center mb-2">
+          <i class="bi bi-facebook" id="facebook"></i>
+        </div>
+        <div class="col-md-1 col-sm-1 d-flex justify-content-center mb-2">
+          <i class="bi bi-tiktok" id="tiktok"></i>
+        </div>
+        <div class="col-md-1 col-sm-1 d-flex justify-content-center mb-2">
+          <i class="bi bi-twitter" id="twitter"></i>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <div class="container-fluid py-3 bg-dark text-light">
+    <div class="container">
+      <label class="text-center d-flex justify-content-center">&copy;2024 Istana Boneka | Kelompok 7</label>
+    </div>
+  </div>
+
+  <script src="bootstrap.js"></script>
+
+  <script>
+    function clearForm() {
+      document.getElementById('email').value = '';
+      document.getElementById('pesan').value = '';
+    }
+
+    document.getElementById('instagram').addEventListener('click', function () {
+      window.open('https://www.instagram.com/', '_blank');
+    });
+
+    document.getElementById('facebook').addEventListener('click', function () {
+      window.open('https://www.facebook.com/', '_blank');
+    });
+
+    document.getElementById('tiktok').addEventListener('click', function () {
+      window.open('https://www.tiktok.com/', '_blank');
+    });
+
+    document.getElementById('twitter').addEventListener('click', function () {
+      window.open('https://www.twitter.com/', '_blank');
+    });
+  </script>
+</body>
+
+</html>

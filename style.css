@@ -1,0 +1,54 @@
+.main-color{
+    background-color:rgb(230, 129, 148) !important;
+}
+
+body{
+    font-family: cursive, 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.banner {
+    height: 80vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('asset/banner.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.hovered-card{
+    transition: .3s;
+}
+
+.hovered-card:hover{
+    transform: scale(1.1);
+}
+
+.icon-service{
+    width: 80px;
+    height: 80px;
+    border: solid #fff 2px;
+    border-radius: 50%;
+    color: #fff;
+}
+
+.alamat{
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.banner-produk {
+    height: 55vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('asset/banner.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.banner-aboutus {
+    height: 70vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('asset/banner2.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.about-us{
+color: #d81b60; 
+text-align: center; 
+border-radius: 15px;
+}

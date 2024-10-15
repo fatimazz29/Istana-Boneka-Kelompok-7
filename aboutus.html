@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Istana Boneka | About Us</title>
+    <link rel="stylesheet" href="bootstrap.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar fixed-top navbar navbar-expand-md navbar-dark bg-dark main-color">
+        <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <a class="navbar-brand me-auto" href="index.html">Istana Boneka</a>
+                <ul class="navbar-nav">
+                    <li class="nav-item me-3">
+                        <a class="nav-link" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item me-3">
+                        <a class="nav-link" href="produk.html">Produk</a>
+                    </li>
+                    <li class="nav-item me-3">
+                        <a class="nav-link" href="promo.html">Promo</a>
+                    </li>
+                    <li class="nav-item me-3">
+                        <a class="nav-link active" href="aboutus.html">About Us</a>
+                    </li>
+                    <li class="nav-item me-3">
+                        <a class="nav-link" href="cart.html" tabindex="-1" aria-disabled="true"><i
+                                class="bi bi-cart"></i>Keranjang</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Banner -->
+    <div class="container-fluid banner-aboutus d-flex align-items-center">
+        <div class="container">
+        </div>
+    </div>
+
+    <!-- About Us Section -->
+    <div class="container-fluid py-5 about-us">
+        <div class="container">
+            <div class="row">
+                <h2 class="mb-4">About Us</h2>
+                <p>
+                    <strong>Istana Boneka</strong> adalah toko boneka online yang penuh warna dan menyenangkan! Di sini,
+                    kamu akan menemukan berbagai macam boneka lucu dan menggemaskan yang siap menemanimu berpetualang.
+                    Semua boneka kami dibuat dengan bahan berkualitas dan aman untuk anak-anak. Yuk, jelajahi koleksi
+                    kami dan temukan boneka impianmu!
+                </p>
+
+                <div class="col-sm-6 col-md-3 mb-3 mt-3">
+                    <div class="card">
+                        <img src="asset/fatima.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <a href=" https://fatimazz29.github.io/Praktikum-Bootstrap/" onmouseover="" class="card-text">Siti Fatima
+                                Azzahro</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-6 col-md-3 mb-3 mt-3">
+                    <div class="card">
+                        <img src="asset/ica.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <a href="https://azisa15.github.io/Tugas-Praktikum-Boostrap/" class="card-text">Nur Azisa Ibrahim</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-6 col-md-3 mb-3 mt-3">
+                    <div class="card">
+                        <img src="asset/wiwi.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <a href="https://nurindahhh12.github.io/Praktikum-Bootstrap/" class="card-text">Nur Indah
+                                Pratiwi</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-6 col-md-3 mb-3 mt-3">
+                    <div class="card">
+                        <img src="asset/fitrah.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <a href="https://fitra11.github.io/tugas-bootstrap/" class="card-text">Nur Syafitra Ramadhani</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Alamat -->
+    <div class="container-fluid py-5 text-light alamat">
+        <div class="container">
+            <h5 class="text-center mb-4">Temui Kami</h5>
+            <div class="row justify-content-center">
+                <div class="col-md-1 col-sm-1 d-flex justify-content-center mb-2">
+                    <i class="bi bi-instagram fs-5" id="instagram"></i>
+                </div>
+                <div class="col-md-1 col-sm-1 d-flex justify-content-center mb-2">
+                    <i class="bi bi-facebook" id="facebook"></i>
+                </div>
+                <div class="col-md-1 col-sm-1 d-flex justify-content-center mb-2">
+                    <i class="bi bi-tiktok" id="tiktok"></i>
+                </div>
+                <div class="col-md-1 col-sm-1 d-flex justify-content-center mb-2">
+                    <i class="bi bi-twitter" id="twitter"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <div class="container-fluid py-3 bg-dark text-light">
+        <div class="container">
+            <label class="text-center d-flex justify-content-center">&copy;2024 Istana Boneka | Kelompok 7</label>
+        </div>
+    </div>
+
+
+    <script src="bootstrap.js"></script>
+
+    <script>
+        document.getElementById('instagram').addEventListener('click', function () {
+            window.open('https://www.instagram.com/', '_blank');
+        });
+
+        document.getElementById('facebook').addEventListener('click', function () {
+            window.open('https://www.facebook.com/', '_blank');
+        });
+
+        document.getElementById('tiktok').addEventListener('click', function () {
+            window.open('https://www.tiktok.com/', '_blank');
+        });
+
+        document.getElementById('twitter').addEventListener('click', function () {
+            window.open('https://www.twitter.com/', '_blank');
+        });
+    </script>
+</body>
+
+</html>
